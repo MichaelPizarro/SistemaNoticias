@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1 class= "text-center my-4" >Sistema de Noticias</h1>
+	
+     <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" th:src= "${imagen1}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title" th:text= "${titulo1}" />
+      <p th:text=" ${bajada1}" />
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" th:src= "${imagen2}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title" th:text= "${titulo2}" />
+      <p th:text=" ${bajada2}" />
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" th:src= "${imagen3}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title" th:text= "${titulo3}" />
+      <p th:text=" ${bajada3}" />
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" th:src= "${imagen4}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title" th:text= "${titulo4}" />
+      <p th:text=" ${bajada4}" />
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" th:src= "${imagen5}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title" th:text= "${titulo5}" />
+      <p th:text=" ${bajada5}" />
+      
+    </div>
+  </div>
+</div> 
+       
+       
+       
+       
+       
+       
+       
+ </body>
+</html>

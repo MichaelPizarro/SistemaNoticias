@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="Noticia1" class="com.desafiolatam.beansxml.Noticia" >
+		<property name="titulo" value=' Piñera defiende plazos del plan de descarbonización: "No podemos sacar plantas de energía y dejar al país a oscuras" '/>
+		<property name="bajada" value=' El Presidente indicó que si bien quisiéramos hacerlo antes, debe ser algo "gradual" , recalcando que "tenemos que asegurarnos que cuando sacamos una planta va a existir otra fuente que provea la energía eléctrica que las familias necesitan." ' />
+		<property name="imagen" value="https://static.emol.cl/emol50/Fotos/2019/06/05/file_20190605171930.jpg" />
+	</bean>
+	<bean id="Noticia2" class="com.desafiolatam.beansxml.Noticia" >
+		<property name="titulo" value=' Trenes rápidos a Valparaíso: Tarifas medias irían desde $5.500 a $5.890 y EFE advierte que duplican a las de buses '/>
+		<property name="bajada" value=' Así lo señalan documentos del acta de la sesión del Consejo de Concesiones del MOP realizada el pasado 24 de mayo, cuando se declararon de interés público los proyectos. ' />
+		<property name="imagen" value="https://static.emol.cl/emol50/Fotos/2019/06/05/file_20190605075909.jpg" />
+	</bean>
+	<bean id="Noticia3" class="com.desafiolatam.beansxml.Noticia" >
+		<property name="titulo" value=' Nueva York podría ser el primer Estado en prohibir la amputación de garras a gatos: veterinarios se oponen '/>
+		<property name="bajada" value=' La propuesta ya fue aprobada y se espera que pase por la oficina del gobernador para convertirla en ley. Está previsto que quienes no cumplan con la norma se enfrenten a multas de hasta mil dólares (cerca de $700 mil). ' />
+		<property name="imagen" value="https://static.emol.cl/emol50/Fotos/2019/06/04/file_20190604175922.jpg" />
+	</bean>
+	<bean id="Noticia4" class="com.desafiolatam.beansxml.Noticia" >
+		<property name="titulo" value=' Chadwick dice que se evalúa bajar dotación de carabineros en La Moneda y en la protección de senadores '/>
+		<property name="bajada" value=' La idea es poder aumentar la dotación en la calle. El ministro del Interior, además, confirmó que presentará ante la fiscalía antecedentes por las amenazas que ha recibido la diputada Carmen Hertz (PC). ' />
+		<property name="imagen" value="https://static.emol.cl/emol50/Fotos/2019/06/05/file_20190605124143.jpg" />
+	</bean>
+	<bean id="Noticia5" class="com.desafiolatam.beansxml.Noticia" >
+		<property name="titulo" value=' Los mejores equipos y las selecciones favoritas a quedarse con el título del Mundial femenino de Francia '/>
+		<property name="bajada" value=' Nueve combinados tienen pergaminos para poder coronarse en el certamen que arranca el próximo 7 de junio. ' />
+		<property name="imagen" value="https://static.emol.cl/emol50/Fotos/2019/05/28/file_20190528175635.jpg" />
+	</bean>
+</beans>
